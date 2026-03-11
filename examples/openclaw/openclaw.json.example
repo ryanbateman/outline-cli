@@ -1,0 +1,13 @@
+{
+  "skills": {
+    "entries": {
+      "outline-cli": {
+        "enabled": true,
+        "env": {
+          "OUTLINE_API_TOKEN": "ol_api_YOUR_TOKEN_HERE",
+          "OUTLINE_API_URL": "https://your-instance.getoutline.com/api"
+        }
+      }
+    }
+  }
+}

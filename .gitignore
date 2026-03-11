@@ -1,0 +1,25 @@
+# Rust build artifacts
+/target
+
+# Cross-compilation config (machine-specific linker paths)
+.cargo/
+
+# Release tarballs
+*.tar.gz
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+credentials.json
+
+# Internal development docs
+plan.md
