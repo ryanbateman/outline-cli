@@ -32,9 +32,6 @@ Sleep 500ms
 Show
 
 # 1. Schema in text mode (human-readable summary)
-Type "# Discover API methods at runtime"
-Enter
-Sleep 500ms
 Type "outline schema documents.create"
 Sleep 300ms
 Enter

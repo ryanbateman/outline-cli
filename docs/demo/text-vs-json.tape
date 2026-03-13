@@ -31,9 +31,6 @@ Sleep 500ms
 Show
 
 # 1. Text output (default) — formatted table
-Type "# Default output: human-readable table"
-Enter
-Sleep 500ms
 Type "outline collections list"
 Sleep 300ms
 Enter
@@ -50,9 +47,6 @@ Enter
 Sleep 3s
 
 # 3. JSON output — machine-readable
-Type "# JSON output: structured for agents and scripts"
-Enter
-Sleep 500ms
 Type "outline collections list --output json --fields id,name"
 Sleep 300ms
 Enter

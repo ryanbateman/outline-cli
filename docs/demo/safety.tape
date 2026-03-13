@@ -32,9 +32,6 @@ Sleep 500ms
 Show
 
 # 1. Dry-run: validate without executing
-Type "# --dry-run validates the request without sending it"
-Enter
-Sleep 500ms
 Type "outline documents create --json "
 Type@0 "'"
 Type@0 '{"title":"Test","collectionId":"48c4642d-2241-4b09-9a8a-9521170b6276","text":"# Hello"}'
@@ -45,9 +42,6 @@ Enter
 Sleep 3s
 
 # 2. Input validation: bad UUID
-Type "# Input validation catches malformed IDs"
-Enter
-Sleep 500ms
 Type "outline documents info --json "
 Type@0 "'"
 Type@0 '{"id":"not-a-valid-uuid?inject=true"}'
@@ -57,9 +51,6 @@ Enter
 Sleep 3s
 
 # 3. Schema validation: missing required field
-Type "# Schema validation catches missing required fields"
-Enter
-Sleep 500ms
 Type "outline documents create --json "
 Type@0 "'"
 Type@0 '{"title":"No Collection"}'
