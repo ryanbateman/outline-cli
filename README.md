@@ -1,6 +1,6 @@
 # outline
 
-This is an unofficial CLI tool for [Outline](https://getoutline.com), the open source knowledge base based primarily on Markdown files. It is built on two principles: make it easy to use your favourite terminal-based editor to work with and publish Markdown documents in Outline, and make it easy for agents to work with these same documents as safely and securely as possible.  
+This is an unofficial CLI tool for [Outline](https://getoutline.com), the open source knowledge base based primarily on Markdown files. It is built on two principles: make it easy to use your favourite terminal-based editor to work with and publish Markdown documents in Outline, and make it easy for agents to work with these same documents as safely and securely as is possible.  
 
 I built it around these principles because I found I was exchanging a lot of Markdown files with agents, and the logical question after the first two ("Why did I choose a life like this?" and "How can I make it stop?") was "How can I streamline this process?".  
 
