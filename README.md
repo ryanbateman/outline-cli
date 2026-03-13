@@ -305,6 +305,7 @@ Alternatively, create a config file at `~/.config/outline/credentials.json`:
 ## Development
 
 See [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) for architecture, building, testing, and project structure.
+This tool was built using OpenCode and Claude Opus 4.6. I do not know Rust but I know good development principles and made every effort to review during development and test for safety. I bear no responsibility for use of the tool and its consequences. 
 
 ## License
 
